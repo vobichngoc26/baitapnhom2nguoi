@@ -3,15 +3,9 @@ from PyQt6.QtWidgets import QApplication, QMainWindow
 from MainWindowExt import MainWindowExt
 
 app=QApplication([])
-
-qMainWindow=QMainWindow()
-
-HelloworldWindow=MainWindowExt()
-
-HelloworldWindow.setupUi(qMainWindow)
-
-HelloworldWindow.setupSignalAndSlot()
-
-HelloworldWindow.showWindow()
-
+mainwindow=QMainWindow()
+myui=MainWindowExt()
+myui.setupUi(mainwindow)
+myui.showWindow()
 app.exec()
+

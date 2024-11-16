@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Lê Thị Trúc Linh</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../HelloWorld/309036_student_education_study_icon.png</normaloff>
+    <normalon>../HelloWorld/309036_student_education_study_icon.png</normalon>
+    <disabledoff>../HelloWorld/309036_student_education_study_icon.png</disabledoff>
+    <disabledon>../HelloWorld/309036_student_education_study_icon.png</disabledon>
+    <activeoff>../HelloWorld/309036_student_education_study_icon.png</activeoff>
+    <activeon>../HelloWorld/309036_student_education_study_icon.png</activeon>
+    <selectedoff>../HelloWorld/309036_student_education_study_icon.png</selectedoff>
+    <selectedon>../HelloWorld/309036_student_education_study_icon.png</selectedon>../HelloWorld/309036_student_education_study_icon.png</iconset>
+  </property>
+  <property name="animated">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>20</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(252, 1, 7)</string>
+    </property>
+    <property name="text">
+     <string>Toán Học Cơ Bản</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Hesoa">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>90</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Hệ Số a:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Hesob">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>140</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Hệ số b :</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdita">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>90</y>
+      <width>291</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditb">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>140</y>
+      <width>291</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Cong">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>190</y>
+      <width>61</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Tru">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>190</y>
+      <width>61</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>-</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Nhan">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>190</y>
+      <width>61</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>*</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Chia">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>190</y>
+      <width>61</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>/</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditkq">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>260</y>
+      <width>311</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 10);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ketqua">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>270</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Kết quả:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Clear">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>310</y>
+      <width>91</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Clear</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../HelloWorld/118917_edit_clear_icon.png</normaloff>
+      <disabledoff>../HelloWorld/118917_edit_clear_icon.png</disabledoff>../HelloWorld/118917_edit_clear_icon.png</iconset>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="autoRepeat">
+     <bool>true</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Exit">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>310</y>
+      <width>91</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>17</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Exit</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../HelloWorld/4115235_exit_logout_sign out_icon.png</normaloff>
+      <disabledoff>../HelloWorld/4115235_exit_logout_sign out_icon.png</disabledoff>../HelloWorld/4115235_exit_logout_sign out_icon.png</iconset>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>37</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
